@@ -121,3 +121,10 @@ Git은 파일을 modified, staged, committed로 관리
     
 
   #### 주의! 이미 커밋된 파일은 반드시 삭제를 하여야 .gitignore로 적용됩니다.
+
+## 참조
+
++ [Git - Reference (git-scm.com)](https://git-scm.com/docs)
+
++ [Git - 수정하고 저장소에 저장하기 (git-scm.com)](https://git-scm.com/book/ko/v2/Git의-기초-수정하고-저장소에-저장하기)
+
