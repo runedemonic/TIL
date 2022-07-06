@@ -14,17 +14,17 @@ Git은 파일을 modified, staged, committed로 관리
 
 ## 기본 명령어
 
-### $ git log
+### ```$ git log```
 
 + 현재 저장소에 기록된 커밋을 조회 
 +  다양한 옵션을 통해 로그를 조회할 수 있음
-+ $ git log -1 
-+ $ git log --oneline 
-+ $ git log -2 --oneline
++ ``` $ git log -1 ```
++ ```$ git log --oneline ```
++ ```$ git log -2 --oneline```
 
 
 
-### $ git status
+### ```$ git status```
 
 + Git 저장소에 있는 파일의 상태를 확인하기 위하여 활용
 
@@ -41,7 +41,7 @@ Git은 파일을 modified, staged, committed로 관리
 
   
 
-### $ git add
+### ```$ git add```
 
 + 특정 파일/폴더의 변경사항 추가
 + 파일을 staged 상태로 만듬
@@ -52,49 +52,49 @@ Git은 파일을 modified, staged, committed로 관리
 
 1. GitHub에 Repository를 생성 후 
 2. Repository .git주소 확인
-3. $ git remote add origin <.git주소>로 정보를 로컬 저장소에 추가
+3. ```$ git remote add origin <.git주소>```로 정보를 로컬 저장소에 추가
 
 
 
 
 
-### $ git remote -v
+### ```$ git remote -v```
 
 + 원격 저장소의 정보를 확인함
 
 
 
-### $ git push
+### ```$ git push```
 
-+ $ git push <원격저장소이름> <브랜치이름>
++ ```$ git push <원격저장소이름> <브랜치이름>```
 + 원격 저장소로 로컬 저장소 변경 사항(커밋)을 올림(push)
 + 로컬 폴더의 파일/폴더가 아닌 저장소의 버전(커밋)이 올라감
 
 
 
-### $ git pull
+### ```$ git pull```
 
-+ $ git pull <원격저장소이름> <브랜치이름>
++ ```$ git pull <원격저장소이름> <브랜치이름>```
 + 원격 저장소로부터 변경된 내역을 받아와서 이력을 병합함
 
 
 
-### $ git clone
+### ```$ git clone```
 
-+ $ git clone <원격저장소주소>
++ ```$ git clone <원격저장소주소>```
 + 원격 저장소를 복제하여 모든 버전을 가져옴
 + 원격 저장소 이름의 폴더로 이동해서 활용함
 
 
 
-|             명령어             |                   내용                    |
-| :----------------------------: | :---------------------------------------: |
-|           git clone            |             원격 저장소 복제              |
-|         git remote –v          |           원격저장소 정보 확인            |
-|  git remote add <원격저장소>   | 원격저장소 추가 <br />(일반적으로 origin) |
-|   git remote rm <원격저장소>   |              원격저장소 삭제              |
-| git push <원격저장소> <브랜치> |             원격저장소에 push             |
-| git pull <원격저장소> <브랜치> |           원격저장소로부터 pull           |
+|                 명령어                 |                   내용                    |
+| :------------------------------------: | :---------------------------------------: |
+|           ```$ git clone```            |             원격 저장소 복제              |
+|         ```$ git remote –v```          |           원격저장소 정보 확인            |
+|  ```$ git remote add <원격저장소>```   | 원격저장소 추가 <br />(일반적으로 origin) |
+|   ```$ git remote rm <원격저장소>```   |              원격저장소 삭제              |
+| ```$ git push <원격저장소> <브랜치>``` |             원격저장소에 push             |
+| ```$ git pull <원격저장소> <브랜치>``` |           원격저장소로부터 pull           |
 
 
 
