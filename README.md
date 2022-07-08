@@ -10,3 +10,7 @@
 ## Git
 
 [Git 정리](https://github.com/runedemonic/TIL/blob/master/Git.md)
+
+22/07/07
+## JPA 실습
+
