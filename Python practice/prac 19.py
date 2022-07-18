@@ -1,8 +1,7 @@
 number= int(input())
-count = 1
-while True:
+count = 0
+while number:
     number //= 10
     count += 1
-    if number // 10 <1:
-        break
+
 print(count)
