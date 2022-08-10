@@ -17,12 +17,12 @@ def DFS(x, y, mapList, visitedList):
                 DFS(nX, nY, mapList, visitedList)
 
 while True:
-    N,M = map(int,input().split())
+    N,M = map(int,sys.stdin.readline().split())
     if N== 0 and M == 0:
         break
     wmap=[]
     for i in range(M):
-        wmap.append(list(map(int, input().split())))
+        wmap.append(list(map(int, sys.stdin.readline().split())))
     visitedList = [list(False for _ in range(N)) for _ in range(M)]
     count = 0
 
